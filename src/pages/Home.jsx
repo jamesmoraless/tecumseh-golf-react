@@ -71,12 +71,7 @@ const Home = () => {
     <div>
       {/* Hero Section */}
       <section 
-        className="hero-section py-20 flex items-center justify-center text-white text-center"
-        style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${heroImage})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
-        }}
+        className="hero-section py-20 flex items-center justify-center text-white text-center min-h-[50vh]"
       >
         <div className="container-custom px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
